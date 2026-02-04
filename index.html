@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Catan Dice Counter</title>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>🎲 Catan Dice Counter</h1>
+
+    <div class="dice-grid">
+        <!-- Dice numbers 2–12 -->
+        <button data-number="2">2</button>
+        <button data-number="3">3</button>
+        <button data-number="4">4</button>
+        <button data-number="5">5</button>
+        <button data-number="6">6</button>
+        <button data-number="7">7</button>
+        <button data-number="8">8</button>
+        <button data-number="9">9</button>
+        <button data-number="10">10</button>
+        <button data-number="11">11</button>
+        <button data-number="12">12</button>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="diceChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
